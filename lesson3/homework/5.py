@@ -9,5 +9,5 @@ t = int(input("Введите количество секунд: "))
 hh = t // 3600
 mm = t % 3600 // 60
 ss = t % 3600 % 60
-print(hh,mm,ss, sep=":" )
+print(hh, mm, ss, sep=":")
 print(f"{hh:02}:{mm:02}:{ss:02}")
