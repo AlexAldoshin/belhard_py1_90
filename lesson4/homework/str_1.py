@@ -8,3 +8,11 @@
 
 '''
 
+s = input("Введите фразу: ").lower()
+
+gl= "aeiouyаеёиоуыэюя"
+low_count = sum(map(s.count, gl))
+
+print(f"Символов: {len(s)}")
+print(f"Слов: {len(s.split())}")
+print(f"Гласных: {low_count}")

@@ -5,3 +5,13 @@
     - выдать среднее арифметическое
 
 '''
+
+d = input("Введите цифры через пробел: ")
+sd = list( map(int, d.split()))
+
+print(sd)
+
+s = sum(sd)
+print(f"сумма: {s}")
+print(f"max: {max(sd)}")
+print(f"avg: {s/len(sd)}")

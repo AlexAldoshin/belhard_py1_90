@@ -6,3 +6,10 @@
 
 '''
 
+s = "Это тестовая <start>строка для изучения<end> строковых операций"
+
+ls = len('<start>')
+res = s.find('<start>')
+res2 = s.find('<end>', res+ls)
+
+print(s[(res+ls):res2])
