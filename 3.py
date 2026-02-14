@@ -1,1 +1,3 @@
-print("-"*30)
+a=list("🐶".encode())
+
+print(a)
