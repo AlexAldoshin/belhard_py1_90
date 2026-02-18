@@ -121,6 +121,10 @@
 # print('1,2,3,4,5'.split(','))
 
 # a = '1,2,3,4,5'.split(',')
+# print(a)
+# b = "---".join(a)
+# print(b)
+
 # b = list(map(int, a))
 # print(b)
 # print(sum(b))
