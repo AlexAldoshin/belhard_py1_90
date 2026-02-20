@@ -26,4 +26,10 @@ matrix = [
         [7, 8, 9]
     ]
 
-print(matrix)
+
+r = zip(*matrix[::-1])
+r90=list(map(list, r))  
+print(r90)
+
+rp90 = list(map(list, zip(*matrix)))[::-1]
+print(rp90)
