@@ -6,3 +6,7 @@
 
 '''
 
+c=['hello', 'python', 'интерпретатор', 'pep8', "123"]
+l = list(map(len, c))
+
+print(l)
